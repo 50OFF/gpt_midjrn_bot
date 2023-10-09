@@ -2,7 +2,7 @@ import sqlite3
 
 
 class Database:
-    db = sqlite3.connect('gpt_bot')
+    db = sqlite3.connect('data/gpt_bot')
     c = db.cursor()
 
     @classmethod

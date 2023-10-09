@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="gpt_bot" uuid="fff39dbc-455b-4a9b-af6c-02cd7f77c933">
+    <data-source source="LOCAL" name="gpt_bot" uuid="e5d7ae76-c516-425f-a4b4-06a73122b952">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:gpt_bot</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/data/gpt_bot</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
